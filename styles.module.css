@@ -1,0 +1,71 @@
+.header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 1px solid #ffffff;
+    background-color: #50465a;
+}
+
+.btn {
+    padding: 10px;
+    width: 150px;
+    border: none;
+    outline: none;
+    background-color: #d1512d;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.container {
+    height: 70vh;
+    background-color: #50465a;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.selectedContact {
+    background-color: #404040;
+    height: 10vh;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.container > * {
+    margin-bottom: 10px;
+}
+
+.chats > p {
+    font-size: 13px;
+}
+
+.senderName {
+    text-align: right;
+}
+
+.messageReciever {
+    background-color: #775a51;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.messageSender {
+    background-color: rgb(81, 110, 81);
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    font-size: 15px;
+}
+
+.typingStatus {
+    position: fixed;
+    font-size: 13px;
+    font-style: italic;
+    bottom: 70px;
+}
